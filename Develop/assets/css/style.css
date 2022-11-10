@@ -50,11 +50,10 @@ p {
 }
 
 .hero {
-    /* not sure how to make image responsive like in original code */
-    height: auto;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .float-left {
